@@ -1,0 +1,519 @@
+==========
+Procédures
+==========
+
+Excel
+> File > Options > Centre de gestion de la confidentialité
+> Paramètres du Centre de gestion de la confidentialité
+> Paramètres des macros
+> Cocher > Activer tous les macros
+> OK
+
+Excel
+> File > Options > Personnaliser le ruban > Onglets principaux
+> Cocher > Développeur
+> OK
+
+Excel
+> File > Options > Personnaliser le ruban > Onglets principaux
+> Cocher > Développeur
+> OK
+
+Excel
+> Développeur > Visual Basic
+> Insertion > Module
+
+Excel
+> Développeur > Visual Basic
+> VBAProject > Clic droit > Propriétés de VBAProject
+> Onglet > General
+> Nom du projet.....................: ReadySGD
+> Description du projet.............: Système de gestion des dépenses
+> Onglet > Protection
+> Cocher......................: Verrouiller le projet pour l'affichage
+> Mot de passe................: Ready****
+> Confirmer le mot de passe...: Ready****
+> OK
+
+Word
+> Fichier > Enregistrer sous
+> Nom du fichier......: ADDITION.html
+> Type du fichier.....: Page web, filtrée (*htm, *.html)
+> OK
+
+Excel
+> Développeur > Visual Basic
+> Insertion > Module
+> Module1 > Créer ma fonction
+
+Excel
+> Fichier > Enregistrer sous
+> Nom du fichier......: NOM_FICHIER_COMPLEMENT
+> Type du fichier.....: Complément Excel (*.xlam)
+> OK
+
+Excel
+> Fichier > Options > Complément
+> Gérer > Complément Excel > Atteindre
+> Cocher > NOM_FICHIER_COMPLEMENT
+> OK
+
+Excel
+> Se mettre dans une cellule
+> Saisir une formaule
+> Cliquer sur fx
+> Cela ouvre une boite de dialogue
+> Saisir les champs de la formule à la main
+> Cliquer sur une cellule pour récupérer son contenu
+> OK
+
+Excel
+> Développeur > Visual Basic
+> Affichage > Explorateur d'objets
+> Toutes bibliothèques > VBAProject
+> Classes > globales
+> ADDITION > Clic droit > Porpiétés
+> Nom........: MA_FONCTION
+> Description...: Permet de réaliser une addition
+> ID de contexte d'aide...: 100
+> OK
+
+HTML Help Workshop
+> File > New > Project
+> Suivant > Browse > MON_REPERTOIRE_PROJET
+> Nom du fichier > ReadySGD_Aide > Project File (*.hhp)
+> Suivant > HTML file (.htm)
+> Suivant > Add > ADDITION.html
+> Suivant > Terminer
+
+HTML Help Workshop
+> Dans un projet existant
+> Onglet > Project
+> Add/Remove topic files
+> Pour ajouter ou supprimer un nouveau sujet
+> OK
+
+HTML Help Workshop
+> Dans un projet existant
+> Onglet > Contents
+> Create a new contents file > OK
+> Emplacement......: MON_REPERTOIRE_PROJET
+> Nom du fichier...: ReadySGD_Table_Matieres.hhc
+> Type.............: Table of Contents Files (*.hhc)
+> OK
+
+HTML Help Workshop
+> Dans un projet existant
+> Onglet > Contents
+> Insert heading
+> Entity title......: Manuel Utilisateur
+> OK
+
+HTML Help Workshop
+> Dans un projet existant
+> Onglet > Contents
+> Insert page > Oui
+> Entity title......: Addition
+> Add > ADDITION.html > OK
+> OK
+
+HTML Help Workshop
+> Dans un projet existant
+> Onglet > Contents
+> Flêche Haut Bas Gauche Droite
+> Pour déplacer et organiser la table des matières
+> OK
+
+HTML Help Workshop
+> Dans un projet existant
+> Onglet > Contents
+> Sélectionner une page
+> Edit selection
+> Onglet > Advanced
+> Image index....: auto (Fichier)
+> Image index....: 1 (Livre Fermé)
+> Image index....: 2 (Livre Ouvert)
+> Image index....: 3 (Livre Fermé Etoilé)
+> Image index....: 4 (Livre Ouvert Etoilé)
+> Image index....: 5 (Dossier Fermé)
+> Image index....: 6 (Dossier Ouvert)
+> Image index....: 7 (Dossier Fermé Etoilé)
+> Image index....: 8 (Dossier Ouvert Etoilé)
+> OK
+
+HTML Help Workshop
+> Dans un projet existant
+> Onglet > Index
+> Create a new index file > OK
+> Emplacement......: MON_REPERTOIRE_PROJET
+> Nom du fichier...: ReadySGD_Index.hhk
+> Type.............: Index Files (*.hhk)
+> OK
+
+HTML Help Workshop
+> Dans un projet existant
+> Onglet > Index
+> Insert a keyword > Oui
+> Keyword......: exemple
+> Add > MULTIPLICATION.html > OK
+> OK
+
+HTML Help Workshop
+> Dans un projet existant
+> Onglet > Project
+> Add/Modify window definitions
+> Create a window type named......: ReadSGD_Aide_Window
+> OK
+> Onglet General
+> Title bar text......: ReadySGD - Manuel utilisateur
+> Onglet Buttons
+> Cocher >  Hide/Show
+> Cocher >  Back
+> Cocher >  Forward
+> Cocher >  Stop
+> Cocher >  Refresh
+> Cocher >  Home
+> Cocher >  Options
+> Cocher >  Print
+> Onglet Position
+> Default Positions
+> Cocher > Save user defined window position after first use
+> Onglet Navigation Pane
+> Cocher > Window with navigation pane, topic pane, ande button
+> Cocher > Open with navigation pane closed
+> Cocher > Auto sync
+> Cocher > Automatically show/hide navigation pane
+> Default tab > Contents
+> Cocher > Search tab
+> Cocher > Advanced
+> Cocher > Favorites tab
+> OK > Suivant
+> Cocher > Compile full-text Information
+> Suivant
+> Terminer
+
+HTML Help Workshop
+> Dans un projet existant
+> Onglet > Project
+> HtmlHelp API Information
+> Onglet > Map
+> Header file
+> File to include > ReadySGD_Aide_Jointures.h
+> OK
+
+HTML Help Workshop
+> Dans un projet existant
+> Onglet > Project
+> Change project opitions
+> Onglet > General
+> Title > ReadySGD_Aide_Options
+> OK
+
+HTML Help Workshop
+> Dans un projet existant
+> Onglet > Project
+> Save project, contents, and index files
+
+HTML Help Workshop
+> Dans un projet existant
+> Onglet > Project
+> Save all files and compile
+
+HTML Help Workshop
+> View compiled files
+> Compile file > ReadySGD_Aide.chm
+> View
+
+Excel
+> Développeur > Visual Basic
+> VBAProject > Clic droit > Propriétés de VBAProject
+> Onglet > General
+> Nom du projet.....................: ReadySGD
+> Description du projet.............: Système de gestion des dépenses
+> Nom du fichier d'aide.............: ReadySGD_Aide.chm
+> ID de contexte d'aide du projet...: 1
+> OK
+
+Excel
+> Développeur > Visual Basic
+> Affichage > Fenêtre Variables locales
+
+Excel
+> Développeur > Visual Basic
+> Affichage > Barre d'outils > Débogage
+
+Excel
+> Développeur > Visual Basic
+> Débogage > Pas à pas détaillé
+
+Excel
+> Développeur > Visual Basic
+> Dock > Projet
+> Insertion > UserForm
+
+Excel
+> Développeur > Visual Basic
+> Dock > Projet
+> Feuilles > UserForm1
+
+Excel
+> Développeur > Visual Basic
+> Dock > Propriétés
+> (Name) > rdv_connection_window > Touche Entrée
+> Pour modifier le nom de l'objet
+
+Excel
+> Développeur > Visual Basic
+> Affichage > Fenêtre exécution
+> Pour exécuter une expression de débogage
+
+Excel
+> Développeur > Visual Basic
+> Dock > Project
+> Objet > Clic droit > Code
+> SavePicture Me.MultiPage1.Page1.Picture, "C:\dev\pratique\excel\rdv_systeme_gestion_depenses\v04\img\image.bmp"
+> Pour sauvegarder l'image
+
+Excel
+> Développeur > Visual Basic
+> Dock > Project
+> Sélectionner l'objet
+> ESC
+> Pour passer à l'objet parent
+
+Excel
+> Développeur > Visual Basic
+> Dock > Project
+> Sélectionner l'objet parent
+> Clic droit > Ordre de tabulation
+> Monter ou Descendre
+> Pour modifier l'ordre de tabulation des objets enfant
+
+Excel
+> Développeur > Visual Basic
+> Dock > Project
+> Sélectionner deux objets
+> Clic droit > Groupe
+> Pour grouper les objets
+
+Excel
+> Développeur > Visual Basic
+> Dock > Project
+> Sélectionner un groupe d'objets
+> Clic droit > Dissocier
+> Pour dissocier les objets
+
+Excel
+> Développeur > Visual Basic
+> Dock > Project
+> Sélectionner un objet dans un groupe d'objets
+> Clic droit > Premier plan
+> Pour passer l'objet au premier plan
+
+Excel
+> Développeur > Visual Basic
+> Dock > Project
+> Sélectionner un objet dans un groupe d'objets
+> Clic droit > Arrière-plan
+> Pour passer l'objet en arrière-plan
+
+Paint
+> Coller la couleur à récupérer
+> Séléctionner le pointeur de couleur
+> Cliquer sur la couleur à récupérer
+> Cliquer sur modifier les couleurs
+> Pour lire la couleur à récupérer
+
+Excel
+> Développeur > Visual Basic
+> Dock > Project
+> Séléctionner un objet
+> Ajouter une image ICO 32 x 32 dans la proprité (MouseIcon)
+> Sélectionner la propriéte (99-fmMousePointerCustom) dans la propriété (MouseIcon)
+> Pour créer un curseur  en forme de main sur l'objet
+
+Excel
+> Sélectionner une forme
+> Clic droit > Taille et propriétés > Propriétés
+> Décocher > Vérouiller
+> Pour dévérouiller la forme
+
+Excel
+> Sélectionner toutes les colonnes supplémentaires
+> Clic droit > Supprimer
+> Pour supprimer toutes les colonnes supplémentaires
+
+Excel
+> Affichage
+> Décocher > Quadriallage
+> Pour supprimer les quadrillages
+
+Excel
+> Affichage
+> Décocher > En-têtes
+> Pour supprimer les en-têtes
+
+Excel
+> Révision > Protéger la feuille
+> Décocher > Sélectionner les cellules vérouillées
+> OK
+> Pour interdire la sélection des cellules vérouillés
+
+Excel
+> Révision > Protéger la feuille
+> Cocher > Utiliser des tableaux croisés dynamiques et des graphiques croisés dynamiques
+> OK
+> Pour autoriser l'utilisation des tableaux croisés dynamiques
+
+Excel
+> Sélectionner une feuille de calcul
+> Clic droit > Masquer
+> Pour masquer la feuille de calcul
+
+Excel
+> Sélectionner une feuille de calcul
+> Clic droit > Afficher
+> Sélectionner une feuille de calcul masquée
+> OK
+> Pour afficher la feuille de calcul masquée
+
+Excel
+> Mise en page > Arrière-plan
+> Sélectionner l'image arrière plan
+> Pour ajouter l'image arrière-plan
+
+Excel
+> Mise en page > Supprimer l'arrière-plan
+> Pour supprimer l'image arrière-plan
+
+Excel
+> Insertion > Texte > Entete/Pied
+> Sélectionner la cellule gauche
+> Création > Image > Sélectionner une image
+> Pour ajouter l'image dans l'entete
+
+Excel
+> Sélectionner une image dans l'entete
+> Création > Mise en forme de l'image
+> Echelle
+> Hauteur.....: 200%
+> Largeur.....: 200%
+> Pour ajouter l'image dans l'entete
+
+Excel
+> Sélectionner une image dans l'entete
+> Insertion > Texte > WordArt
+> Saisir le texte
+> Tourner le texte
+> Pour ajouter un filigrane
+
+Excel
+> Sélectionner le filigrane
+> Clic droit >
+> Taille et propriétés
+> Modifier la transparence
+> Pour modifier la transparence
+
+Excel
+> Accueil > Rechercher et sélectionner > Volet Sélection
+> Afficher / Masquer un objet
+> Pour modifier la visibilité d'un objet
+
+Excel
+> Sélection une feuille de calcul
+> Clic droit > Déplacer ou Copier
+> Cocher > Créer une copie
+> Pour dupliquer la feuille de style
+
+Excel
+> Sélection un objet
+> Clic droit > Lien
+> Info-bulle > Ajouter une info-bulle
+> Emplacement dans ce document > A1
+> Pour ajouter un lien à un objet
+
+Excel
+> Sélection un objet
+> Clic droit > Affecter une macro
+> Sélectionner la macro
+> Pour ajouter une macro
+
+Excel
+> Développeur > Insérer
+> Contrôleurs du formulaire
+> Sélectionner un objet > Bouton
+> Pour ajouter un objet dans la feuille
+
+Excel
+> Développeur > Mode création
+> Pour activer le mode création
+
+Excel
+> Développeur > Mode création
+> Pour désactiver le mode création
+
+Excel
+> Données > Effacer
+> Pour supprimer tous les filtres
+
+Excel
+> MDP : YWuPIy98fxfTE6kukd4f
+> Pour supprimer la protection
+
+==========
+Ressources
+==========
+
+
+Excel: Fichier d'aide CHM
+https://www.youtube.com/watch?v=mUPLBMDPEuE
+
+Excel: Fonction personnalisée
+Excel: Complément Excel
+https://www.youtube.com/watch?v=e5s0RUcSHG4
+
+Excel: Débogage VBA
+https://www.youtube.com/watch?v=GGfvTFA7ZlI
+
+Excel: Exécution expression Debug
+https://bettersolutions.com/vba/debugging/immediate-window.htm
+
+Flat Icon PNG
+https://www.flaticon.com/
+
+Excel: SetWindowIcon
+https://www.youtube.com/watch?v=kJr51cMhK0k
+
+Excel: Use MultiPage UserForm
+https://www.youtube.com/watch?v=QID8qSou0jQ
+
+Excel: TextBox Exit Problem
+https://web.archive.org/web/20080329010525/http://support.microsoft.com/kb/210734
+https://stackoverflow.com/a/56556922/23062806
+
+Excel: Verouillage de l'interface
+https://www.youtube.com/watch?v=z9m5irbCfUc
+
+Excel: Horloge numérique
+https://www.youtube.com/watch?v=itvpFXNbmOw
+
+Excel: Gérer les formes
+https://www.youtube.com/watch?v=S3QtGiD2o6o
+
+Excel: Ajouter une page en arrière plan
+https://www.youtube.com/watch?v=ANUxwi3hY20
+
+Excel: Extraire toutes les images
+https://www.youtube.com/watch?v=jWw1oaXktkI
+
+Excel: Volet Selection
+https://www.youtube.com/watch?v=RcRSAj1E6LI
+
+Excel: Use shape as controleur in sheet
+https://www.youtube.com/watch?v=gqUjjawR3FI
+
+Excel: ListBox RowSource
+https://www.youtube.com/watch?v=wWkjUcZA4KI
+
+Excel: Remove Filter
+https://www.youtube.com/watch?v=Jnn4oxSXV4g

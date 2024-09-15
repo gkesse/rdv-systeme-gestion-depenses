@@ -1,0 +1,26 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=ReadySGD_Aide.chm
+Contents file=ReadySGD_Aide_Table_Matieres.hhc
+Default Window=ReadSGD_Aide_Window
+Default topic=ADDITION.html
+Display compile progress=No
+Full-text search=Yes
+Index file=ReadySGD_Aide_Index.hhk
+Language=0x40c Français (France)
+Title=ReadySGD_Aide_Options
+
+[WINDOWS]
+ReadSGD_Aide_Window="ReadySGD - Manuel utilisateur","ReadySGD_Aide_Table_Matieres.hhc","ReadySGD_Aide_Index.hhk","ADDITION.html",,,,,,0x63521,,0x307e,[271,372,593,566],,,,1,,,0
+
+
+[FILES]
+ADDITION.html
+DIVISION.html
+MULTIPLICATION.html
+
+[MAP]
+#include ReadySGD_Aide_Jointures.h
+
+[INFOTYPES]
+

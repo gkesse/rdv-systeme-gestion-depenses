@@ -1,0 +1,22 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=ReadySGD_Aide.chm
+Contents file=ReadySGD_Aide_Table_Matieres.hhc
+Default Window=ReadySGD_Aide_Window
+Default topic=Introduction.htm
+Display compile progress=No
+Full-text search=Yes
+Index file=ReadySGD_Aide_Index.hhk
+Language=0x40c Français (France)
+Title=ReadySGB - Manuel utilisateur
+
+[WINDOWS]
+ReadySGD_Aide_Window=,"ReadySGD_Aide_Table_Matieres.hhc","ReadySGD_Aide_Index.hhk","Introduction.htm",,,,,,0x63521,,0x307e,[271,372,593,566],,,,1,,,0
+
+
+[FILES]
+Introduction.htm
+Evenements.htm
+
+[INFOTYPES]
+
