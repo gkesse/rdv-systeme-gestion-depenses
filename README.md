@@ -13,7 +13,7 @@ L’application sera dotée de :
 
 # Demos
 
-![demos.gif](./v01/img/demos.gif "demos.gif")
+![demos.gif](./v01/img/gif/demos.gif "demos.gif")
 
 # Liens
 
