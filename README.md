@@ -17,5 +17,5 @@ L’application sera dotée de :
 
 # Liens
 
-[Tutoriel](https://readydev.ovh/home/tutoriels/excel/application/systeme-gestion-depenses "Système de gestion des dépenses")  
-[LinkedIn](https://www.linkedin.com/in/tia-gerard-kesse/ "Contacts")  
+[Tutoriel](https://readydev.ovh/home/tutoriels/excel/application/systeme-gestion-depenses "Système de gestion des dépenses")
+[LinkedIn](https://www.linkedin.com/in/tia-gerard-kesse/ "Contacts")
