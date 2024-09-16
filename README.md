@@ -11,6 +11,9 @@ L’application sera dotée de :
 * Une protection contre l’accès aux programmes VBA
 * Un manuel d’utilisateur
 
+# Demos
+
+![demos.gif](./v01/img/demos.gif "demos.gif")
 
 # Liens
 
